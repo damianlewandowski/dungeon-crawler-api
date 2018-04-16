@@ -15,7 +15,6 @@ module.exports = function(app, db) {
     const data = {
       name: req.body.name,
       level: req.body.level,
-      dungeonLevel: req.body.dungeonLevel,
       weapon: req.body.weapon,
       armor: req.body.armor,
       time: req.body.time,
